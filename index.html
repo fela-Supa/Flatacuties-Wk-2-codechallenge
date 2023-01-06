@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Flatacuties</title>
+    <script
+      src="https://kit.fontawesome.com/dbeb62ff9b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>VOTE FOR YOUR FAVOURITE ANIMAL</h1>
+    </div>
+    <section class="mainSection">
+        <!-- animals name container -->
+      <div id="animalNames">
+        <h4>Animals List</h4>
+        <button id="addAnimal">
+          <i class="fa-solid fa-plus"></i> Add Animal
+        </button>
+      </div>
+      <!-- animal details container -->
+      <div id="animalDetails">
+        <div class="animalCard">
+          <p>Ms. Zebra</p>
+          <img
+            src="https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif"
+            alt=""
+          />
+          <div class="votes">
+            <label>
+                <span id="label">Enter no. of votes 0 - 10</span>
+                <input id="votesInput" type="number" min="0" max="10">
+            </label>
+            <p id="vote"><i class="fa-regular fa-heart"></i></p>
+            <p id="votesCount">votes: 0</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- form section to be displayed as a modal window -->
+    <section id="addAnimalsSection">
+      <button id="cancel">&#x2715</button>
+        <form id="submit">
+          <label>
+            <p>Enter animal name</p>
+            <input id="name" type="text" placeholder="e.g Mr. Tiger">
+          </label> 
+          <label>
+            <p>Enter path to animal image</p>
+          <input id="imageUrl" type="text" placeholder="e.g: https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif">
+        </label>
+          <button type="submit" >Submit</button>
+        </form>
+    </section>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

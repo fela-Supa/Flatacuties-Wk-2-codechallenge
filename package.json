@@ -1,0 +1,19 @@
+{
+  "name": "wk-2-flatacuties-codechallenge",
+  "version": "1.0.0",
+  "description": "Animal Voting Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fela-Supa/Wk-2-Flatacuties-codechallenge.git"
+  },
+  "author": "Alvin Njonjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fela-Supa/Wk-2-Flatacuties-codechallenge/issues"
+  },
+  "homepage": "https://github.com/fela-Supa/Wk-2-Flatacuties-codechallenge#readme"
+}

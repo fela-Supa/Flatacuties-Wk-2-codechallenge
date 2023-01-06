@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #5f4040;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #333;
+  background-color: #ccc;
+}
+.header img {
+  width: 30%;
+  height: 50px;
+}
+.mainSection {
+  display: flex;
+  height: 80%;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 20px;
+  position: relative;
+}
+#animalNames {
+  width: 20%;
+  margin: 10px;
+  background-color: rgb(63, 56, 63);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(218, 211, 211);
+  font-size: 2rem;
+}
+h4 {
+  margin-top: 10px;
+  color: rgb(61, 156, 42);
+}
+#addAnimal {
+  padding: 10px;
+  color: rgb(218, 211, 211);
+  background-color: rgb(8, 155, 77);
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+#animalNames p {
+  width: 90%;
+  margin: auto;
+  padding: 16px;
+  font-size: 1.5rem;
+  border: 1px solid rgb(57, 65, 57);
+  border-radius: 3px;
+}
+#animalDetails {
+  margin: 10px;
+  width: 80%;
+  background-color: rgb(57, 65, 57);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animalCard {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 4px rgb(39, 38, 38);
+  font-size: 2rem;
+  background-color: azure;
+}
+#animalDetails img {
+  height: 60%;
+}
+.votes {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.votes label{
+  font-size: 1rem;
+  width: 40%;
+}
+.votes input{
+  padding: 8px;
+  font-size: 1.2rem;
+}
+.fa-heart{
+  font-size: 3rem;
+}
+.red {
+  color: red;
+}
+#addAnimalsSection{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  background-color: rgb(89, 191, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  top: 200px;
+  left: 30%;
+  right: 30%;
+  display: none;
+}
+form{
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+form input, form button{
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+#cancel{
+  border-radius: 30%;
+  padding: 10px;
+}
